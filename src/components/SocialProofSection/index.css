@@ -1,0 +1,47 @@
+.social-proof-section {
+    width: 100%;
+    padding: 64px 0px 64px 0px;
+    margin: 0;
+    gap: 0px;
+}
+
+.social-proof-section-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px 0px 16px;
+    gap: 32px;
+}
+
+.social-proof-section-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #475467;
+}
+
+.social-proof-section-logos-container {
+    display: flex;
+    justify-content: center;
+}
+
+.fictional-company-logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.company-logo {
+    width: 128px;
+    height: 36px;
+    padding: 2px 4px 2px 4px;
+    gap: 22px;
+}
+
+@media screen and (min-width: 992px) {
+    .company-logo {
+        width: 170px;
+        height: 48px;
+    }
+}

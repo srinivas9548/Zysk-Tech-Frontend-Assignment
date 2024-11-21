@@ -1,0 +1,129 @@
+.nav-header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #F2F4F7;
+    background-color: #ffffff;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000px;
+}
+
+.nav-content {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-content {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-content {
+        width: 85%;
+    }
+}
+
+.nav-website-logo-header-and-list-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-website-logo-and-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.website-logo {
+    width: 32px;
+    height: 32px;
+}
+
+.website-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #101828;
+    margin-left: 8px;
+}
+
+@media screen and (min-width: 992px) {
+    .website-title {
+        font-size: 24px;
+    }
+}
+
+.nav-header-list-container {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-header-list-container {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-header-list-container {
+        margin-left: 40px;
+        gap: 30px;
+    }
+}
+
+.nav-list-item {
+    font-size: 14px;
+    font-weight: 600;
+    color: #475467;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-list-item {
+        font-size: 16px;
+    }
+}
+
+.nav-list-item-content {
+    display: flex;
+    align-items: center;
+}
+
+.arrow-down {
+    font-size: 16px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.hamburger-menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .hamburger-menu-icon {
+        display: none;
+    }
+}
+
+.profile-pic-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+    .profile-pic-img {
+        display: none;
+    }
+}
